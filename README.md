@@ -6,6 +6,7 @@ Este proyecto es una aplicación de React creada con Vite, diseñada para propó
 
 - [Node.js](https://nodejs.org/) versión 16 o superior
 - [pnpm](https://pnpm.io/) como gestor de paquetes
+- [npm] si usas npm cambia pnpm de los comandos por npm
 
 ## Instalación
 
@@ -32,12 +33,6 @@ Iniciar el servidor de desarrollo
 pnpm run dev
  ```
 
-o si usas npm
-
- ```bash
-npm run dev
- ```
-
 ## Si desea iniciar un proyecto desde 0 o scratch debe realizar los siguientes comandos
 
 1. Crea un nuevo proyecto con Vite:
@@ -46,19 +41,19 @@ npm run dev
    pnpm create vite@latest nombre-del-proyecto --template react
    ```
 
-2. Navega al directorio del proyecto:
+3. Navega al directorio del proyecto:
 
    ```bash
    cd nombre-del-proyecto
    ```
 
-3. Instala las dependencias:
+4. Instala las dependencias:
 
    ```bash
    pnpm install
    ```
 
-4. Inicia el servidor de desarrollo:
+5. Inicia el servidor de desarrollo:
 
    ```bash
    pnpm run dev
